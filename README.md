@@ -116,7 +116,8 @@ Porque GitHub Secrets conserva el valor fuera del repositorio y lo entrega al ru
 - CI exitoso previo al fallo controlado: [ejecución 34127627868](https://github.com/Crisss333/webAvanzada/actions/runs/34127627868)
 - CI con fallo controlado: [ejecución 34127788624](https://github.com/Crisss333/webAvanzada/actions/runs/34127788624)
 - CI exitoso después de corregir el fallo: [ejecución 34127955064](https://github.com/Crisss333/webAvanzada/actions/runs/34127955064)
-- La ejecución de CD se incorporará al completar el merge.
+- CI exitoso con el contenido completo: [ejecución 34128510550](https://github.com/Crisss333/webAvanzada/actions/runs/34128510550)
+- CD Staging se activa después de integrar el Pull Request y conserva `staging/` como artefacto de la ejecución.
 
 ## Seguridad
 
