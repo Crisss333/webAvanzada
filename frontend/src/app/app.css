@@ -1,0 +1,29 @@
+:host {
+  display: grid;
+  min-height: 100dvh;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+main {
+  width: min(100%, 42rem);
+  padding: 3rem;
+  border: 1px solid #dbe4f0;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 1rem 3rem rgb(15 23 42 / 10%);
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #153b64;
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  line-height: 1.1;
+}
+
+p {
+  margin: 1rem 0 0;
+  color: #49627d;
+  font-size: 1.125rem;
+}
